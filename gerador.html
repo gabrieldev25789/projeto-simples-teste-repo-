@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/gerador.css">
+    <script src="./js/gerador.js" defer></script>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <div id="form-container">
+        <div id="inputs-labels">
+            <label class="label">Nome:
+                <input type="text" id="nome" class="input" placeholder="Digite o seu Nome">
+            </label>
+    
+            <label class="label">Sobrenome:
+                <input type="text" id="sobrenome" class="input" placeholder="Digite o seu Sobrenome">
+            </label>
+    
+            <label class="label">Senha:
+                <input type="number" id="senha" class="input" placeholder="Digite a sua Senha">
+
+                <a href="#" id="sugerir-senha">Sugerir Senha</a>
+              <div id="senha-gerada" class="hide"><h4>Sua Senha:</h4> <p id="senha-random">sua senha</p></div>
+
+            </label>
+            
+            <label  class="label">Confirmar Senha:
+                <input type="number" id="confirm-senha" class="input" placeholder="Confirme a sua Senha">
+            </label>
+
+            <button type="submit" id="enviar">Confirmar Cadastro</button>
+        </div>
+    </div>
+
+   
+    
+</body>
+</html>
