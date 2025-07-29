@@ -78,4 +78,6 @@ button.addEventListener("click", () => {
     validarCadastro()
 }) 
 
+// TESTANDO ALTERAÇÃO
+
 
